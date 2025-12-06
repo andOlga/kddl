@@ -5,7 +5,7 @@ Episode <a href="?1">1</a> <a href="?2">2</a> <a href="?3">3</a> <a href="?4">4<
 Get the downloadable version of this game, and the rest of the series, <a href="https://caravelgames.com">here</a>!
 <script src='ruffle/ruffle.js'></script>
 <script>
-    const chapter = location.search.replace('?', '')
+    let chapter = location.search.replace('?', '')
     if (chapter != Number(chapter) || chapter < 1 || chapter > 5) {
         chapter = 1
     }
